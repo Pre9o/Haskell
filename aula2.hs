@@ -4,11 +4,8 @@ x % y = x `mod` y
 (&) :: a -> (a -> b) -> b
 x & f = f x
 
-gozei :: String -> String -> String
-gozei x y = x ++ " gozei " ++ y
-
-comeu :: String -> String -> String
-comeu x y = "O " ++ x ++ " comeu o " ++ y
+bateu :: String -> String -> String
+bateu x y = "O " ++ x ++ " bateu no " ++ y
 
 (^///^) :: String -> String -> String
 x ^///^ y = x ++ " ^///^ " ++ y
