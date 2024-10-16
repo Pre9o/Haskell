@@ -32,4 +32,3 @@ data List a =
     | a :> List a
     deriving (Eq, Show)
 infixr 5 :>
-
